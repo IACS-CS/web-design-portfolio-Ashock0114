@@ -5,54 +5,38 @@ body {
 }
 html { background-color: #7a93f1;
      margin: auto;}
-header{
+.hero{
   color: red;
+  grid-area:Header Header;
 }
 
-p {
+.info{
   color:#76dab6;
   border-width: 8px;
   border-radius: 5px;
-    background-color:#4da39b;
+  background-color:#4da39b;
+  grid-area: box1;
 }
-h1{
+.about-me{
+  color: #76dab6;
+  background-color:#4da39b;
+  grid-area: box2;
+}
+
+.sample-work{
   color: #76dab6;
   background-color:#4da39b;
 }
 
-h2{
-  color: #76dab6;
-  background-color:#4da39b;
-}
 
-h3{
-  color: #76dab6;
-  background-color:#4da39b;
-}
-
-h4{
-  color: #76dab6;
-  background-color:#4da39b;
-}
-
-li{
-  border-width: 8px;
-  border-radius: 5px;
-  color:#292c21;
-}
-a{
-  color:#0c0404;
-}
-}
-.page-wrapper{
+html{
 
   display: grid;
   grid-template-areas:
+  "Header Header "
   "box1      box2"
   "box3      box4"
-  "box5      box6"
-  "box7      box8"
-  "box9      box9"; 
+  "box5      box6"; 
   row-gap: 15px;
   column-gap: 15px;
 }
