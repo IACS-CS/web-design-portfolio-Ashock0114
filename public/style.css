@@ -6,7 +6,7 @@ body {
 html { background-color: #7a93f1;
      margin: auto;}
 .hero{
-  color: red;
+  color: rgb(23, 121, 70);
   grid-area:Header Header;
 }
 
@@ -14,29 +14,16 @@ html { background-color: #7a93f1;
   color:#76dab6;
   border-width: 8px;
   border-radius: 5px;
-  background-color:#4da39b;
   grid-area: box1;
 }
 .about-me{
   color: #76dab6;
-  background-color:#4da39b;
   grid-area: box2;
 }
 
 .sample-work{
   color: #76dab6;
-  background-color:#4da39b;
 }
-
-
-html{
-
-  display: grid;
-  grid-template-areas:
-  "Header Header "
-  "box1      box2"
-  "box3      box4"
-  "box5      box6"; 
-  row-gap: 15px;
-  column-gap: 15px;
+p{
+  padding-top: 150px;
 }
