@@ -1,2 +1,4 @@
 // Write JavaScript here.
-console.log('main.js loaded successfully!')
+document.getElementById("clickableElement")
+.addEventListener(
+  'click', this.style.cursor = "url('Feesh.png'), auto";

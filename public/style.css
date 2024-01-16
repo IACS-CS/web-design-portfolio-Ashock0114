@@ -4,7 +4,8 @@ body {
   line-height: 1.4;
 }
 html { background-color: #7a93f1;
-     margin: auto;}
+     margin: auto;
+    }
 .hero{
   color: rgb(23, 121, 70);
   grid-area:Header Header;
@@ -24,6 +25,10 @@ html { background-color: #7a93f1;
 .sample-work{
   color: #76dab6;
 }
-p{
+h2{
   padding-top: 150px;
+  font-family: cursive;
+}
+h1{
+  font-family: cursive;
 }
