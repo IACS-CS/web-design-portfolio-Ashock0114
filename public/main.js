@@ -1,4 +1,5 @@
 // Write JavaScript here.
-document.getElementById("clickableElement")
+document.getElementById("fish")
 .addEventListener(
-  'click', this.style.cursor = "url('Feesh.png'), auto";
+  'click', function(MouseEvent) {this.style.cursor = "url('path/to/Feesh.png'), auto";
+});
