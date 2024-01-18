@@ -3,3 +3,39 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   line-height: 1.4;
 }
+html { background-color: #7a93f1;
+     margin: auto;
+    }
+.hero{
+  color: rgb(23, 121, 70);
+  grid-area:Header Header;
+}
+
+.info{
+  color:#76dab6;
+  border-width: 8px;
+  border-radius: 5px;
+  grid-area: box1;
+}
+.about-me{
+  color: #76dab6;
+  grid-area: box2;
+}
+
+.sample-work{
+  color: #76dab6;
+}
+h2{
+  padding-top: 150px;
+  font-family: cursive;
+}
+h1{
+  font-family: cursive;
+}
+div{
+  color: #76dab6
+}
+img{
+  width: 50px;
+  
+}
